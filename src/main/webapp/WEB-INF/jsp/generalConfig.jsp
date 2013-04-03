@@ -118,8 +118,8 @@
     </select>
 </p>
 <p>
-	Pre-Interceptor class: <input type="text" name="GeneralConfigImpl.PRE_INTERCEPTOR_CLASS" value="<%=preInterceptorClassName%>">
+	Pre-Interceptor class: <input type="text" name="<%=GeneralConfigImpl.PRE_INTERCEPTOR_CLASS%>" value="<%=preInterceptorClassName%>">
 </p>
 <p>
-	Post-Interceptor class: <input type="text" name="GeneralConfigImpl.POST_INTERCEPTOR_CLASS" value="<%=postInterceptorClassName%>">
+	Post-Interceptor class: <input type="text" name="<%=GeneralConfigImpl.POST_INTERCEPTOR_CLASS%>" value="<%=postInterceptorClassName%>">
 </p>
